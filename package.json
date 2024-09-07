@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "cookie": "node getCookies.js",
-    "start": "npm run cookie && node index.js"
+    "start-with-cookies": "npm run cookie && node index.js",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
